@@ -1,6 +1,6 @@
 {
   "name": "@adefw/stringkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "adefw",
   "license": "MIT",
   "description": "string kit for browser and nodejs.",
