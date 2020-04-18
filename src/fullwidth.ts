@@ -3,7 +3,7 @@
  */
 
 /**
- * Transform string to Fullwidth
+ * Transform string to FullWidth
  */
 export function toFullWidth(str: string): string {
   let output = ''
