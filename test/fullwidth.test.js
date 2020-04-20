@@ -38,6 +38,10 @@ describe('toHalfWidth', () => {
     expect(toHalfWidth('　')).toBe(' ')
     expect(toHalfWidth('')).toBe('')
   })
+  test('barcode',()=>{
+    // code-128
+    expect(toHalfWidth('ＡＢＣ－ａｂｃ－１２３４')).toBe('ABC-abc-1234')
+  })
 })
 
 
